@@ -6,7 +6,7 @@
          background = "indianred";
         element_color = "indianred";
         eye = "closed";
-        //mostrarContrasena();
+        mostrarContrasena();
      }else{
          background = "lightgray";
         element_color = "white";

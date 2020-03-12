@@ -34,7 +34,7 @@
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <div class="input-group">
-                            <input type="password" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="password" id="password" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button class="btn" id="btn" type="button" onmousedown="cerrar(true)" onmouseup="cerrar(false)" >
                                     <img src="/open-eye-fa.png" class="eye" />
@@ -43,7 +43,7 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Log in</button>
+                    <button type="submit" class="btn btn-primary" onclick="limpiar()">Log in</button>
                 </form>
             </div>
         </div>
