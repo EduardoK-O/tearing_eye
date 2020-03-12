@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    size: auto;
+}
+button, .container {
+    display: flex;
+    align-content: center;
+}
+.window {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 600px;
+    height: 480px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fcontainer {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 436px;
+    background-color: lightgray;
+}
+
+form {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.input-group-append {
+    background-color: white;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+}
+.input-group-append {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    padding-bottom: 1px;
+    height: 37px;
+    border-radius: 0px 5px 5px 0px;
+    border-left-color: aliceblue;
+}
+
