@@ -6,6 +6,7 @@
          background = "indianred";
         element_color = "indianred";
         eye = "closed";
+        //mostrarContrasena();
      }else{
          background = "lightgray";
         element_color = "white";
@@ -23,9 +24,14 @@
 }
 
 function limpiar(action){
-    var eye = "tear";
-    if(action == true){
-        eye = "open";
-    }
     document.getElementById("btn").innerHTML = "<img src='/"+eye+"-eye-fa.png' class='eye' />";
+}
+
+function mostrarContrasena(){
+    var tipo = document.getElementById("password");
+    if(tipo.type == "password"){
+        tipo.type = "text";
+    }else{
+        tipo.type = "password";
+    }
 }
